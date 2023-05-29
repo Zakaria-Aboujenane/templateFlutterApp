@@ -1,5 +1,5 @@
 # GPS TRACKER
-## SETTING ENVIRONEMENT
+## RUN APP
 - `tools -> flutter tools -> flutter clean`
 - specify path to flutter SDK:`setting/android sdk`
 - go to `pubspec.yaml` and click Pub Get for dependencies
@@ -9,3 +9,5 @@
 - specify entry point to main.dart:
 - finish
 - start project on emulator or phone selected
+### without android studio 
+- command : `flutter run`
