@@ -1,16 +1,11 @@
-# gpstracker
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# GPS TRACKER
+## SETTING ENVIRONEMENT
+- `tools -> flutter tools -> flutter clean`
+- specify path to flutter SDK:`setting/android sdk`
+- go to `pubspec.yaml` and click Pub Get for dependencies
+### Android studio : add configuration by specifying the main dart file:
+- in edit configurations (Android Studio)
+- click on `+` button and select `Flutter`
+- specify entry point to main.dart:
+- finish
+- start project on emulator or phone selected
